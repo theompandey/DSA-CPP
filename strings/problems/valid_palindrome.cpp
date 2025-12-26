@@ -8,12 +8,7 @@ using namespace std;
 class Solution {
 public:
     bool isAlphaNum(char ch){
-        if((ch >= '0' && ch <= '9') ||
-            (tolower(ch) >= 'a' && (ch) <= 'z')){
-                return true;
-        }
-        return false;
-
+        isalnum(ch);
     }
 
 
