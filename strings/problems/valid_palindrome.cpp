@@ -8,7 +8,7 @@ using namespace std;
 class Solution {
 public:
     bool isAlphaNum(char ch){
-        isalnum(ch);
+        return isalnum(ch);
     }
 
 
