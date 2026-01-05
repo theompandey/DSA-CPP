@@ -3,14 +3,11 @@
 #include <cctype>
 using namespace std;
 
-
-
 class Solution {
 public:
     bool isAlphaNum(char ch){
         return isalnum(ch);
     }
-
 
     bool isPalindrome(string s) {
         int st=0, end = s.length()-1;
